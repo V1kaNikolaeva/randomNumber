@@ -1,0 +1,99 @@
+html {
+    font-family: 'Tilt Neon', cursive !important;
+}
+body {
+    background-color: rgb(45, 45, 45);
+    font-family: 'Tilt Neon', cursive !important;
+    font-size: 20px;
+    font-weight: 100 !important;
+}
+
+.wrapperRange {
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    width: 500px;
+}
+
+.range {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(45, 45, 45);
+    border-color: white;
+    resize: none;
+    color: rgb(223, 178, 95);
+    font-family: 'Tilt Neon', cursive !important;
+    font-size: 18px;
+    width: 170px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.button {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(45, 45, 45);
+    width: 220px;
+    height: 50px;
+    color: white;
+    font-family: 'Tilt Neon', cursive !important;
+    font-size: 20px;
+    font-weight: 400;
+}
+.button:hover {
+    background-color: rgb(223, 178, 95);
+    color: rgb(40, 40, 40);
+    transition: 0.4s;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+    width: 700px;
+}
+
+.wrapperNumber {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.outlineNumber {
+    outline: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+}
+
+.outputNumber {
+    color: rgb(223, 178, 95);
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+}
