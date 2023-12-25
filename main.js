@@ -3,26 +3,25 @@
 const number = document.getElementById('outputNumber');
 const sNumber = document.getElementById('sNumber');
 const doNumber = document.getElementById('doNumber'); 
-const myFavoriteButton = document.getElementById('start');
-const myFavoriteButton2 = document.getElementById('stop');
-const myFavoriteButton3 = document.getElementById('console');
+const startButton = document.getElementById('startButton');
+const restartValuesButton = document.getElementById('restartValuesButton');
+const restartOutputButton = document.getElementById('restartOutputButton');
 
 
 //Функция рандома 
-myFavoriteButton.onclick = function(max, min, rand) { 
+startButton.onclick = function(max, min, rand) { 
     max = Number(doNumber.value); 
     min = Number(sNumber.value); 
     rand = min + Math.random() * (max + 1 - min); 
     number.innerText = Math.floor(rand); 
-    return; 
 } 
 
-myFavoriteButton2.onclick = function() {
+restartValuesButton.onclick = function() {
     sNumber.value = '';
     doNumber.value = '';
 }
 
-myFavoriteButton3.onclick = function() {
+restartOutputButton.onclick = function() {
     number.innerText = '0';
 }
 
